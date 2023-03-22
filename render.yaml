@@ -7,6 +7,7 @@ services:
     branch: main
     numInstances: 1
     healthCheckPath: /
+    rootDir: .
     envVars:
       - key: DB_TYPE
         value: postgresdb
