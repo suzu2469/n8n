@@ -32,7 +32,6 @@ services:
           property: password
 
 databases:
-  - type: postgres
-    name: n8n-db
+  - name: n8n-db
     region: singapole
     plan: free
