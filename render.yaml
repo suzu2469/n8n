@@ -2,7 +2,7 @@ services:
   - type: web
     name: n8n
     env: docker
-    region: singapole
+    region: singapore
     plan: free
     branch: main
     numInstances: 1
@@ -34,5 +34,5 @@ services:
 
 databases:
   - name: n8n-db
-    region: singapole
+    region: singapore
     plan: free
