@@ -9,6 +9,10 @@ services:
     healthCheckPath: /healthz
     rootDir: .
     envVars:
+      - key: N8N_HOST
+        value: n8n.suzurin.me
+      - key: N8N_PROTOCOL
+        value: https
       - key: DB_TYPE
         value: postgresdb
       - key: DB_POSTGRESDB_DATABASE
