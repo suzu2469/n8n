@@ -14,7 +14,7 @@ services:
       - key: N8N_PROTOCOL
         value: https
       - key: N8N_PORT
-        value: ""
+        value: 443
       - key: DB_TYPE
         value: postgresdb
       - key: DB_POSTGRESDB_DATABASE
