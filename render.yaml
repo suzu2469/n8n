@@ -6,7 +6,7 @@ services:
     plan: free
     branch: main
     numInstances: 1
-    healthCheckPath: /
+    healthCheckPath: /healthz
     rootDir: .
     envVars:
       - key: DB_TYPE
