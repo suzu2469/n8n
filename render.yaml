@@ -3,7 +3,7 @@ services:
     name: n8n
     env: docker
     region: singapore
-    plan: free
+    plan: starter
     branch: main
     numInstances: 1
     healthCheckPath: /healthz
@@ -13,6 +13,8 @@ services:
         value: n8n.suzurin.me
       - key: N8N_PROTOCOL
         value: https
+      - key: N8N_PORT
+        value: 80
       - key: DB_TYPE
         value: postgresdb
       - key: DB_POSTGRESDB_DATABASE
